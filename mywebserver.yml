@@ -1,15 +1,16 @@
 ---
  - hosts: all 
    become: yes
+   gather_facts: yes
    tasks:
    - name: install webserver
      apt:
       name: apache2
       state: present 
-      when: ansible_os_family =="Debian"
+     when: ansible_os_family =="Debian"
 
    - name: install webserver on redhat node
      yum:
       name: httpd 
       state: present
-      when: ansible_os_family =="Redhat"   
+     when: ansible_os_family =="Redhat"   
