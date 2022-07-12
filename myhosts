@@ -2,7 +2,7 @@
 172.31.38.38
 172.31.46.21
 
-[websever:vars]
+[websevers:vars]
 
 myvar = value
 mywebpackageubuntu = apache2
