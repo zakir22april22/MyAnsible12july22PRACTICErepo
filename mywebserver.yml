@@ -6,4 +6,8 @@
      apt:
       name: apache2
       state: present 
-      
+
+   - name: install webserver on redhat node
+     yum:
+      name: httpd 
+      state: present   
