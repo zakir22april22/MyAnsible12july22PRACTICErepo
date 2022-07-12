@@ -4,6 +4,6 @@
 
 
 
-myvar = value
-mywebpackageubuntu = apache2
-mywebpackageredhat = httpd
+myvar: value
+mywebpackageubuntu: apache2
+mywebpackageredhat: httpd
