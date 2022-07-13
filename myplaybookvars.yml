@@ -9,4 +9,7 @@
   - name: i want to display tree 
     debug:
      msg: "{{myvar02}}"  
+  - name: i want to display git 
+    debug:
+     msg: "{{myvar01}}"    
 
