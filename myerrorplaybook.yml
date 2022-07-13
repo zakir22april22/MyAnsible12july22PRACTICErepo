@@ -9,11 +9,12 @@
   - name: install git 
     apt: 
      name: git 
-     state: present 
+     state: 
+      
   - name: install wget 
     apt:
      name: wget 
      state: present 
-        
+
     
     
