@@ -10,4 +10,8 @@
   - name: i want to copy static files into ansible nodes side 
     copy:
        src: mystaticfile.html
-       dest: /var/www/html/index.html   
+       dest: /var/www/html/index.html 
+  - name: i want to copy dynamic files into ansible nodes
+    template:
+        src: myindex.j2
+        des: /var/www/html/index.html       
