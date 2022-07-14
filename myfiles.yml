@@ -2,3 +2,7 @@
   file:
     path: /home/ubuntu/mytestfile
     state: touch
+- name: create directory
+  file:
+    path: /home/ubuntu/myfolder
+    state: directory
