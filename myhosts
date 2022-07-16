@@ -1,6 +1,9 @@
 [mywebservers]
 172.31.38.38
 
+[myapplicationservers]
+172.31.38.38
+
 
 
 
